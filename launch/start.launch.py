@@ -22,7 +22,7 @@ def generate_launch_description():
         get_package_share_directory("test_sim"), "urdf", "sim.urdf.xacro"
     )
     gazebo_world_path = os.path.join(
-        get_package_share_directory("test_sim"), "worlds", "racetrack_day.world"
+        get_package_share_directory("test_sim"), "worlds", "racetrack_day_empty.world"
     )
 
     robot_state_publisher_node = Node(
